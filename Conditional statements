@@ -1,0 +1,9 @@
+#include<studio.h>
+main()
+{
+int x;
+printf("Enter marks:");
+scanf("%d",&x);
+printf(x<=40?"Grade E":(x<=54?"Grade D":(x<=69?"Grade C":(x<=84?"Grade B":"Grade A"))));
+return 0;
+}
